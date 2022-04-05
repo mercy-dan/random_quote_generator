@@ -1,0 +1,7 @@
+body {
+    background-color: aqua;
+}
+#box {
+    background-color: black;
+    border: 6px solid white;
+}
