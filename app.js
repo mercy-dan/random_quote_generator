@@ -17,10 +17,10 @@ quoteBtn = document.querySelector(" #btn")
 function randomQuote(){
     // feching random quoute 
     fetch("https://api.quotable.io/random").then(res => res.json()).then(result => {
-    console.log(result);
+    //console.log(result);
     quoteText.innerText = result.content;
     authorName.innerText = result.author;
-    quoteBtn.innerText = "Press for a New Quote!";
+    quoteBtn.innerText = "Press for a New Quote";
 });
 }
 quoteBtn.addEventListener("click",randomQuote);
